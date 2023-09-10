@@ -1,0 +1,298 @@
+*, *::before, *::after, *:hover {
+  box-sizing: border-box;
+  list-style: none;
+  user-select: none;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 30px;
+  margin-left: 17px;
+}
+
+.phone{
+  height: 600px;
+  width: 340px;
+  background-color: black;
+  border-radius: 40px;
+  margin-left: -20px;
+}
+
+.screen {
+  height: 590px;
+  width: 330px;
+  border-radius: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-image: url('../../public/images/wallpaper.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.camera {
+  border: 2px solid black;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  background-color: gray;
+}
+
+.camera .dot{
+  height: 5px;
+  width: 5px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.camera-block {
+  height: 8px;
+  width: 30px;
+  border: 2px solid black;
+  padding-left: 7px;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 29.3px;
+}
+
+.operator {
+  color: white;
+  font-size: 14.5px;
+  font-weight: 700;
+  padding-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+  width: 90px;
+  margin-left: 30px;
+}
+
+.right {
+  width: 120px;
+  display: grid;
+  grid-template-columns: 20px 23px 32px 32px;
+  padding-top: 3px;
+  padding-left: 20px;
+}
+
+.topbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.percentage {
+  color: white;
+  font-size: 14.5px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1px;
+}
+
+.middle {
+  height: 100px;
+  width: 330px;
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.date {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.lock {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  color: white;
+}
+
+.call-i {
+  font-size: 50px;
+  background-color: rgba(148, 148, 148, 0.76);
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.camera-i {
+  font-size: 50px;
+  background-color: rgba(148, 148, 148, 0.76);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.wifi-i, .signal-i, .battery-i {
+  height: 13px;
+  margin-top: 3px;
+}
+
+.battery-i {
+  margin-top: 2px;
+  transform: rotate(-90deg);
+}
+
+.down {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 300px;
+}
+
+.clickable{
+  height: 99px;
+  width: 150px;
+}
+
+.ml-38 {
+  margin-left: 149px;
+}
+
+.backBtn {
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.nastaveni {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  height: 38px;
+  margin-top: 10px;
+  margin-left: 45%;
+}
+
+.nastaveni:hover {
+  cursor: default;
+}
+
+.hudba {
+  font-size: 14px;
+  background-color: rgba(27, 27, 27, 0.9);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 105px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-top: 17px;
+}
+
+.vystup {
+  background-color: rgb(117, 117, 117);
+  border-radius: 20px;
+  font-size: 12px;
+  height: 28px;
+  width: 95px;
+  padding-top: 4px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 33%;
+}
+
+.upozorneni {
+  font-size: 14px;
+  background-color: rgba(27, 27, 27, 0.9);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 105px;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-radius: 20px;
+  padding-top: 37px;
+}
+
+.rutiny {
+  font-size: 14px;
+  background-color: rgba(27, 27, 27, 0.9);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 105px;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-radius: 20px;
+  padding-top: 27px;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.screenBlur {
+  height: 590px;
+  width: 330px;
+  border-radius: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-image: url('../../public/images/blur.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeScreen {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: -16px;
+}
+
+.dateScreen {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.getBackToTheMainPage{
+  color: black;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.getBackToTheMainPage:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .getBackToTheMainPage {
+    left: 5px; 
+    top: 5px;
+    height: 30px;
+    width: 30px;
+  }
+}
