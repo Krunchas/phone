@@ -1,3 +1,5 @@
+// This is only backup file
+
 import Head from "next/head";
 import { FaLock, FaWifi, FaSignal, FaBatteryFull, FaPhoneAlt } from 'react-icons/fa';
 import { PiCameraFill } from 'react-icons/pi';
